@@ -1,9 +1,86 @@
+/* G E R A L */
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 body {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
+}
+
+div {
+    border: 1px solid white;
+}
+
+/* U T I L */
+.clear {
+    clear: both;
+}
+
+.font-green {
+    color: #00bf63;
+}
+
+.font-black {
+    color: black;
+}
+
+/* C O N T E N T */
+
+#content {
+    padding: 80px 256px;
+}
+
+#header .logo span {
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+
+#home {
+    height: 750px;
+    align-content: center;
+}
+
+.home-title-line1 h2 {
+    font-size: 64px;
+}
+
+.home-title-line2 {
+    display: block;
+    height: max-content;
+}
+
+.home-title-line2 h3, h1 {
+    float: left;
+}
+
+.home-title-line2 h3 {
+    font-size: 24px;
+}
+
+.home-title-line2 h1 {
+    font-size: 6em;
+    margin-left: 8px;
+    margin-top: -28px;
+}
+
+.home-title-line3 p {
+    font-size: 20px;
+}
+
+.font-box {
+    border: #00bf63 2px solid;
+    border-radius: 8px;    padding: 0 8px;
+}
+
+#home hr {
+    border: 2px black solid;
+    width: 256px;
+    margin-bottom: 36px;
 }
