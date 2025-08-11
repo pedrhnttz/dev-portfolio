@@ -14,7 +14,7 @@ body {
 }
 
 div {
-    border: 1px solid white;
+    border: 1px solid red;
 }
 
 /* U T I L */
@@ -43,7 +43,7 @@ div {
 }
 
 #home {
-    height: 750px;
+    height: 700px;
     align-content: center;
 }
 
